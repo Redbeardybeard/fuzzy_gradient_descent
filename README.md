@@ -1,1 +1,1 @@
-# fuzzy_gradient_descent
+# using fuzzy systems and gradient descent to apporximate functions
