@@ -94,12 +94,6 @@ while status:
         print("xbar : ", XBAR)
         print("ybar : ", YBAR)
         print("sigma : ", SIGMA)
-        decision = input("continue with drawing with the approximated function?(y/n): ")
-        if decision == "y":
-            while STEP != 500:
-                F = make_f(XBAR, YBAR, SIGMA, IN[STEP])
-                FOUT.append(F)
-                STEP += 1
         break
     loop_counter += 1
     print("counter is at:", loop_counter,"\n########################")
@@ -168,3 +162,9 @@ plt.plot(POINT[10:208], FOUT)
 
 plt.show()
 
+#       decision = input("continue with drawing with the approximated function?(y/n): ")
+#       if decision == "y":
+#           while STEP != 500:
+#               F = make_f(XBAR, YBAR, SIGMA, IN[STEP])
+#               FOUT.append(F)
+#               STEP += 1
